@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+    crossorigin="anonymous">
+    <!-- Font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/14a1c9bd9c.js" crossorigin="anonymous"></script>
+
+    <!-- slick slider-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Custom Stylesheet-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!--header-->
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-12">
+                    <div class="dropdown">
+                        <button class="dropbtn border dropdown-toggle my-md-4 my-2 text-white"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">USD</button>
+                        <div class="dropdown-content">
+                        <a href="#" class="dropdown-item">ERU -Euro</a>
+                        <a href="#" class="dropdown-item">RUPPEE -Ruppee</a>
+                        </div>
+                    </div>
+                    <!-- <div class="btn-group">
+                        <button class="btn border dropdown-toggle my-md-4 my-2 text-white" 
+                        data-toggle="dropdown" 
+                        aria-haspopup="true"
+                        aria-expanded="false">USD</button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">ERU-Euro</a>
+                            <a href="#" class="dropdown-item">RUPEE - Rupee</a> 
+                        </div>
+                    </div> -->
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <h2 class="my-md-3 site-title text-white">Online Store Shop</h2>
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                    <p class="my-md-4 header-links">
+                        <a href="#" class="px-2">Sign In</a> |
+                        <a href="#" class="px-1">Create an Account</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                  <button class="navbar-toggler" type="button" 
+                  data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">FEATURES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">COLLECTION</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">SHOP</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="navbar-nav">
+                      <li class="nav-item border rounded-circle max-2 search-icon">
+                        <i class="fas fa-search p-2"></i>
+                      </li>
+                      <li class="nav-item border rounded-circle max-2 basket-icon">
+                        <i class="fas fa-shopping-basket p-2"></i>
+                      </li>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <!--/header-->
+
+    <!--Main Section-->
+    <main>
+    <!-- First Slider -->
+        <div class="container-fluid p-0">
+            <div class="site-slider">
+                <div class="slider-one">
+                    <div>
+                        <img src="./assets/item-1.jpg" class="img-fluid" alt="Banner 1" width="100%" height="100%">
+                    </div>
+                    <div>
+                        <img src="./assets/item-2.jpg" class="img-fluid" alt="Banner 1"  width="100%" height="100%">
+                    </div>
+                    <div>
+                        <img src="./assets/item-3.jpg" class="img-fluid" alt="Banner 1" width="100%" height="100%">
+                    </div>
+                </div>
+                <div class="slider-btn">
+                    <span class="prev position-top"><i class="fas fa-chevron-left"></i></span>
+                    <span class="next position-top right-0"><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+        </div>
+    <!-- /First Slider -->
+    <!-- Second Slider -->
+        <div class="container-fluid">
+            <div class="site-slider-two px-md-4">
+                <div class="row slider-two text-center">
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/image.png" alt="Product 1">
+                        <span class="border site-btn btn-span">SOFA</span> 
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/CENTER_TABLE1_CANE_GLASS_PEAR_WOOD_CENTBL1CANGPRW_02_2000x.jpg" alt="Product 2">
+                        <span class="border site-btn btn-span">TABLE</span> 
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/stool.jpg" alt="Product 3">
+                        <span class="border site-btn btn-span">STOOL</span> 
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/chair.jpg" alt="Product 3" >
+                        <span class="border site-btn btn-span">CHAIRS</span> 
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/light.jpg" alt="Product 4" >
+                        <span class="border site-btn btn-span">LIGHT</span> 
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/amazon-echo-plus-500x500.jpg" alt="Product 5">
+                        <span class="border site-btn btn-span">ALEXA</span> 
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/download (2).jpg" alt="Product 6">
+                        <span class="border site-btn btn-span">WINDOW CURTAINS</span> 
+                    </div>
+                </div>
+                <div class="slider-btn">
+                    <span class="prev position-top"><i class="fas fa-chevron-left fa-2x text-secondary"></i></span>
+                    <span class="next position-top right-0"><i class="fas fa-chevron-right fa-2x text-secondary"></i></span>
+                </div>
+            </div>
+        </div>
+
+    <!-- /Second Slider -->
+    </main>
+    <!--/Main Section-->
+    <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" 
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
